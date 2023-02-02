@@ -16,14 +16,15 @@ header ul li {
   margin: 20px;
 }
 
+/*Menu*/ 
+
 a {
   color: black;
   text-decoration: none;
   text-transform: uppercase;
   font-weight: bold;
-
 }
-
+ 
 /*Main*/
 
 .textos {
@@ -42,3 +43,50 @@ footer {
 footer ul li {
   list-style-type: none;
 }
+
+/*Media Queries*/
+
+.menu{
+  color: blue
+}
+.textos{
+  color: blueviolet;
+
+}
+/* Mobile view: From 0px to 600px applies the following*/
+
+@media (max-width:600px){
+  .menu{
+    color:cadetblue
+    
+  }
+  .textos{
+    color: rgb(15, 156, 156);
+  }
+  
+  }
+
+ /*Tablet View: from 601px to 990px*/
+ @media (min-width:601px) and (max-width:990px){
+  .menu {
+    color: cornflowerblue;
+  }
+  .textos{
+    color: darkcyan;
+  }
+ 
+  }
+ 
+ @media print and (min-width:300px) {
+  .menu{
+    color: black;
+
+  }
+  .textos{
+    color: black;
+  }
+ }
+
+ /*Hover*/
+
+
