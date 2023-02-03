@@ -87,6 +87,71 @@ footer ul li {
   }
  }
 
- /*Hover*/
+ .fb {
+  background-color: rgb(41, 118, 211);
+  color:white;
+  border: none;
+  height: 36px;
+  width: 105;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: opacity 0.8s;
+ }
+ .fb:hover{
+  opacity: 0.5;
+ }
 
+ .ig {
+  background-color: rgb(188, 62, 192);
+  color:white;
+  border: none;
+  height: 36px;
+  width: 105;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: opacity 0.8s;
+ }
+ .ig:hover{
+  opacity: 0.5;
+ }
+ .yt{
+  background-color: rgb(245, 0, 0);
+  color:white;
+  border: none;
+  height: 36px;
+  width: 105;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: opacity 0.8s;
+}
+.yt:hover{
+ opacity: 0.5;
+ }
+ .lk{
+  background-color: rgb(16, 16, 209);
+  color:white;
+  border: none;
+  height: 36px;
+  width: 105;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: opacity 0.8s;
+ }
+ .lk:hover{
+  opacity: 0.5;
+ }
+ .tktk{
+  background-color: rgb(0, 0, 0);
+  color:white;
+  border: none;
+  height: 36px;
+  width: 105;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: opacity 0.8s;
+ }
+ .tktk:hover{
+  opacity: 0.5;
 
+ }
+ 
